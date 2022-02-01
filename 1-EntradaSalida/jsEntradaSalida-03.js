@@ -8,7 +8,8 @@ function mostrar()
 	//declaramos variable
 	var nombreIngresado;
 
-	//guardamos el nombre tomando el Id del html 
+	//guardamos el nombre tomando el Id del html haciendo click derecho inspecionar
+
 	nombreIngresado = document.getElementById("txtIdNombre").value;
 	//nombre ingresado
 
