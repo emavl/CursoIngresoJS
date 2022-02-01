@@ -12,7 +12,7 @@ function mostrar()
 	//guardo el dato en la ventana emergente con prompt
 	nombreIngresado=prompt("ingrese su nombre");
 
-	//asigno nombre a la caja de texto
+	//asigno nombre a la caja de texto ID de salida
 	//txtIdnombre.value = nombreIngresado;
 	document.getElementById("txtIdNombre").value=nombreIngresado;
 }
