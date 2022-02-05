@@ -10,16 +10,21 @@ function mostrarAumento()
 	//declaro variable
 	var sueldo;
 	var resultado;
+	var porcentaje;
 	var aumento;
 
 	// traigo los valores ID
 	sueldo = document.getElementById("txtIdSueldo").value;
-	
-	//parsear el valor
-	sueldo = parseFloat(sueldo);
+	//tomo el % por prompt
+    porcentaje=prompt("ingrese aumento");
+    porcentaje=parseInt(porcentaje);
 
-   aumento=10/100;
-   resultado=sueldo+ sueldo*aumento;
+    sueldo=parseInt(sueldo);
+
+    //agrego calculos
+    aumento= sueldo * porcentaje/100;
+    resultado=sueldo+aumento;
+
 
   //devuelvo resultado
   document.getElementById("txtIdResultado").value=resultado;

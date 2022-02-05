@@ -9,7 +9,7 @@ function mostrarAumento()
 {
 	//delcaro las variables
 	var importe;
-	var resultado;
+	var resultado; 
 	var descuento;
 
 	//traigo valores
