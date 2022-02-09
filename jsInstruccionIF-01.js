@@ -6,21 +6,23 @@
  function mostrar()
 { 
 
-//declaro las variables
+//declaro las variables 
      var edad;
 
      edad=document.getElementById("txtIdEdad").value;
      edad=parseInt(edad);
 
      if(edad ==15)
-    {
-    	alert("niña bonita");
-    }
+	    {
+	       alert("niña bonita");
+	    }
+
+}    
 /*
 operadores racionales:
 ==(es igual)  menor o igual (<=), mayors o igual(>=) , !=( distinto)
 > (mayor) y < (menor)
 operador logico:
 !(no) &&(y) ||(o)
-
-}//FIN DE LA FUNCIÓN
+*/
+//FIN DE LA FUNCIÓN
